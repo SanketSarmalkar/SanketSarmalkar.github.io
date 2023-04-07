@@ -307,3 +307,7 @@ footer ul {
         margin-right: auto;
     }
 }
+
+img#profile-pic {
+    border-radius: 50%;
+}
