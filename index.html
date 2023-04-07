@@ -1,50 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Sanket S.Sarmalkar Portfolio</title>
-</head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=%id%"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<body>
+      gtag("config", "%id%");
+    </script>
+    <title>Sanket S.Sarmalkar Portfolio</title>
+  </head>
+
+  <body>
     <nav>
-        <ul>
-            <li>
-                <h1>
-                    <a href="index.html"><span class="fas fa-code" aria-hidden="true"></span> Sanket S.Sarmalkar</a
+      <ul>
+        <li>
+          <h1>
+            <a href="index.html"
+              ><span class="fas fa-code" aria-hidden="true"></span> Sanket
+              S.Sarmalkar</a
             >
           </h1>
         </li>
         <li><a href="#projects">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li>
-                <a href="https://www.linkedin.com/in/sanket-sarmalkar-ba0b7a205/" target="_blank">
-                    <span class="fab fa-linkedin" aria-hidden="true"></span>
-                    <span class="sr-only">LinkedIn</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/SanketSarmalkar" target="_blank">
-                    <span class="fab fa-twitter" aria-hidden="true"></span>
-                    <span class="sr-only">twitter</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/SanketSarmalkar" target="_blank">
-                    <span class="fab fa-github-square" aria-hidden="true"></span>
-                    <span class="sr-only">Github</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://docs.google.com/document/d/1fOdidGC6T-BQA5NdZAlvctSw4bUho-oX/edit?usp=share_link&ouid=102970249575423303716&rtpof=true&sd=true" target="_blank" class="button">Resume</a
+        <li><a href="about.html">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/sanket-sarmalkar-ba0b7a205/"
+            target="_blank"
+          >
+            <span class="fab fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/SanketSarmalkar" target="_blank">
+            <span class="fab fa-twitter" aria-hidden="true"></span>
+            <span class="sr-only">twitter</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/SanketSarmalkar" target="_blank">
+            <span class="fab fa-github-square" aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/document/d/1fOdidGC6T-BQA5NdZAlvctSw4bUho-oX/edit?usp=share_link&ouid=102970249575423303716&rtpof=true&sd=true"
+            target="_blank"
+            class="button"
+            >Resume</a
           >
         </li>
       </ul>
@@ -52,135 +80,180 @@
 
     <section id="intro">
       <p class="name">Hi, my name is <span>Sanket S.Sarmalkar.</span></p>
-      <h2>EEE student | NIT Goa | DSA Enthusiast | Flutter | MERN | Exploring around Tech |</h2>
+      <h2>
+        EEE student | NIT Goa | DSA Enthusiast | Flutter | MERN | Exploring
+        around Tech |
+      </h2>
       <p>
-       A student at NIT Goa pursuing B.tech in Electrical and electronics Engineering. I have a strong interests in programing and development. I can adopt to any kind of environment. I am a good listener and quick learner. Always looking for opportunities.
+        A student at NIT Goa pursuing B.tech in Electrical and electronics
+        Engineering. I have a strong interests in programing and development. I
+        can adopt to any kind of environment. I am a good listener and quick
+        learner. Always looking for opportunities.
       </p>
       <p>
-        Currently, I'm persuing my Btech Degree in EEE at  
-        <a
-          href="http://nitgoa.ac.in/"
-          target="_blank"
-          >NIT Goa</a
-        >.
+        Currently, I'm persuing my Btech Degree in EEE at
+        <a href="http://nitgoa.ac.in/" target="_blank">NIT Goa</a>.
       </p>
     </section>
     <div class="gradient"></div>
     <div class="section-blue">
       <section id="projects">
         <h2>Projects</h2>
-       <article>
+        <article>
           <div class="text">
             <h4>Project using basic html, css and javaScript</h4>
             <h3>webWeatherx</h3>
             <p class="blackbox">
-             A JavaScript Weather Forecast application that use OpenWeather API.This is an API based weather information project of any given city.To use this application make sure that you have the Open Weather API KEY. You can get your API KEY and the API documentation on <a href="https://openweathermap.org/">OpenWeather</a> WebSite.
-              You can visit the website through the link <a href="https://sanketsarmalkar.github.io/webWeatherx/" target="_blank" rel="noopener noreferrer" >webWeatherx</a>.
-                </p>
-                <h4>Technologies used include:</h4>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>SVG</li>
-                </ul>
-                </div>
-                <img src="../webWeatherx/webWeatherx.JPG" alt="Screenshot of the webWeatherx." />
-                </article>
-               <article class="reverse">
-                    <div class="text">
-                        <h4>A React JS Project</h4>
-                        <h3>Text_Utils</h3>
-                        <p class="blackbox">
-                            Text_Utils is a collection of text manipulating tools. All text are just simple, easy to use. A Tool created to help the users play around with the text formatting, the way they need.You can visit the website through the link
-                            <a href="http://vidyudanulaboratories.me/Text_Utils/#/" target="_blank" rel="noopener noreferrer" >Text_Utils</a
+              A JavaScript Weather Forecast application that use OpenWeather
+              API.This is an API based weather information project of any given
+              city.To use this application make sure that you have the Open
+              Weather API KEY. You can get your API KEY and the API
+              documentation on
+              <a href="https://openweathermap.org/">OpenWeather</a> WebSite. You
+              can visit the website through the link
+              <a
+                href="https://sanketsarmalkar.github.io/webWeatherx/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >webWeatherx</a
               >.
-                        </p>
-                        <h4>Technologies used include:</h4>
-                        <ul>
-                            <li>React JS</li>
-                        </ul>
-                    </div>
-                    <img src="../Project2.jpg" alt="Screenshot of the Text_Utils." />
-                </article>
-                <article>
-                    <div class="text">
-                        <h4>A Flutter Project</h4>
-                        <h3>Tic-Tac-Toe</h3>
-                        <p class="blackbox">
-                            Tic Tac Toe is a two-player game (one of them being played by computer or human). In this game, there is a board with 3 x 3 squares.
-
-The two players take turns putting marks on a 3x3 board. The goal of Tic Tac Toe game is to be one of the players to get three same symbols in a row - horizontally, vertically or diagonally on a 3 x 3 grid. The player who first gets 3 of his/her symbols (marks) in a row - vertically, horizontally, or diagonally wins the game, and the other loses the game. The game can be played by two players.
-                            You can see the code <a href="https://github.com/SanketSarmalkar/Tic-Tac-Toe">here</a>.
-                        </p>
-                        <h4>Technologies used include:</h4>
-                        <ul>
-                            <li>Dart</li>
-                            <li>Flutter</li>
-                        </ul>
-                    </div>
-                    <img src="../win.jpg" alt="Screenshot of the Tic-Tac-Toe." />
-                </article> 
-                <article class="reverse">
-                    <div class="text">
-                        <h4>Flutter Project</h4>
-                        <h3>News_App</h3>
-                        <p class="blackbox">
-                            News_App is a news app built with Flutter that displays top news from newsapi.org. The app includes a home page that displays top news, and a sidebar which contains contrains such as category, country and mode, where users can choose from a range of news categories. The app also features a smooth and intuitive design with gestures and a seamless experience on Android platform.
-                            To check the code click <a href="https://github.com/SanketSarmalkar/News_App_using_Flutter">here</a>
-                        </p>
-                        <h4>Technologies used include:</h4>
-                        <ul>
-                            <li>Flutter</li>
-                            <li>Firebase</li>
-                            <li>Hive</li>
-                            <li>Getx</li>
-                        </ul>
-                    </div>
-                    <img src="../news_app.jpg" alt="Screenshots of news_app." />
-                </article>
-                </section>
-                </div>
-                <div class="gradient"></div>
-                <div class="section-plum">
-                    <section id="contact">
-                        <h2>Contact me</h2>
-                        <p>
-                            I'm always interested in building Projects, Internship and Job opportunities.
-                        </p>
-                        <p><a href="mailto:sanket.sarmalkar2002@gmail.com" class="button">Email me</a></p>
-                    </section>
-                </div>
-                <div class="gradient"></div>
-                <footer>
-                    <h2>Sanket S.Sarmalkar &middot; Student</h2>
-                    <ul>
-                        <li>
-                            <a href="https://www.linkedin.com/in/sanket-sarmalkar-ba0b7a205/" target="_blank">
-                                <span class="fab fa-linkedin" aria-hidden="true"></span>
-                                <span class="sr-only">LinkedIn</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/SanketSarmalkar" target="_blank">
-                                <span class="fab fa-twitter" aria-hidden="true"></span>
-                                <span class="sr-only">twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/SanketSarmalkar" target="_blank">
-                                <span class="fab fa-github-square" aria-hidden="true"></span>
-                                <span class="sr-only">Github</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:sanket.sarmalkar2002@gmail.com">
-                                <span class="fas fa-envelope" aria-hidden="true"></span>
-                                <span class="sr-only">Email</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p><small>&copy; 2021 Sanket S.Sarmalkar. All rights reserved.</small></p>
-                </footer>
-</body>
-
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SVG</li>
+            </ul>
+          </div>
+          <img
+            src="../webWeatherx/webWeatherx.JPG"
+            alt="Screenshot of the webWeatherx."
+          />
+        </article>
+        <article class="reverse">
+          <div class="text">
+            <h4>A React JS Project</h4>
+            <h3>Text_Utils</h3>
+            <p class="blackbox">
+              Text_Utils is a collection of text manipulating tools. All text
+              are just simple, easy to use. A Tool created to help the users
+              play around with the text formatting, the way they need.You can
+              visit the website through the link
+              <a
+                href="http://vidyudanulaboratories.me/Text_Utils/#/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Text_Utils</a
+              >.
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>React JS</li>
+            </ul>
+          </div>
+          <img src="../Project2.jpg" alt="Screenshot of the Text_Utils." />
+        </article>
+        <article>
+          <div class="text">
+            <h4>A Flutter Project</h4>
+            <h3>Tic-Tac-Toe</h3>
+            <p class="blackbox">
+              Tic Tac Toe is a two-player game (one of them being played by
+              computer or human). In this game, there is a board with 3 x 3
+              squares. The two players take turns putting marks on a 3x3 board.
+              The goal of Tic Tac Toe game is to be one of the players to get
+              three same symbols in a row - horizontally, vertically or
+              diagonally on a 3 x 3 grid. The player who first gets 3 of his/her
+              symbols (marks) in a row - vertically, horizontally, or diagonally
+              wins the game, and the other loses the game. The game can be
+              played by two players. You can see the code
+              <a href="https://github.com/SanketSarmalkar/Tic-Tac-Toe">here</a>.
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Dart</li>
+              <li>Flutter</li>
+            </ul>
+          </div>
+          <img src="../win.jpg" alt="Screenshot of the Tic-Tac-Toe." />
+        </article>
+        <article class="reverse">
+          <div class="text">
+            <h4>Flutter Project</h4>
+            <h3>News_App</h3>
+            <p class="blackbox">
+              News_App is a news app built with Flutter that displays top news
+              from newsapi.org. The app includes a home page that displays top
+              news, and a sidebar which contains contrains such as category,
+              country and mode, where users can choose from a range of news
+              categories. The app also features a smooth and intuitive design
+              with gestures and a seamless experience on Android platform. To
+              check the code click
+              <a
+                href="https://github.com/SanketSarmalkar/News_App_using_Flutter"
+                >here</a
+              >
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Flutter</li>
+              <li>Firebase</li>
+              <li>Hive</li>
+              <li>Getx</li>
+            </ul>
+          </div>
+          <img src="../news_app.jpg" alt="Screenshots of news_app." />
+        </article>
+      </section>
+    </div>
+    <div class="gradient"></div>
+    <div class="section-plum">
+      <section id="contact">
+        <h2>Contact me</h2>
+        <p>
+          I'm always interested in building Projects, Internship and Job
+          opportunities.
+        </p>
+        <p>
+          <a href="mailto:sanket.sarmalkar2002@gmail.com" class="button"
+            >Email me</a
+          >
+        </p>
+      </section>
+    </div>
+    <div class="gradient"></div>
+    <footer>
+      <h2>Sanket S.Sarmalkar &middot; Student</h2>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/sanket-sarmalkar-ba0b7a205/"
+            target="_blank"
+          >
+            <span class="fab fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/SanketSarmalkar" target="_blank">
+            <span class="fab fa-twitter" aria-hidden="true"></span>
+            <span class="sr-only">twitter</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/SanketSarmalkar" target="_blank">
+            <span class="fab fa-github-square" aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:sanket.sarmalkar2002@gmail.com">
+            <span class="fas fa-envelope" aria-hidden="true"></span>
+            <span class="sr-only">Email</span>
+          </a>
+        </li>
+      </ul>
+      <p><small>&copy; 2021 Sanket S.Sarmalkar. All rights reserved.</small></p>
+    </footer>
+  </body>
 </html>
