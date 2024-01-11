@@ -233,7 +233,7 @@ nav [class*="fa-"]:hover {
     font-size: 1rem;
 }
 
-#projects img.first {
+#projects img {
     margin: 2rem 0 4rem 0;
     padding: 1rem;
     border-left: 1px solid var(--aqua);
