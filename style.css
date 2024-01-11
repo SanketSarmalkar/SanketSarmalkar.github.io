@@ -233,13 +233,33 @@ nav [class*="fa-"]:hover {
     font-size: 1rem;
 }
 
-#projects img {
+#projects img.first {
     margin: 2rem 0 4rem 0;
     padding: 1rem;
     border-left: 1px solid var(--aqua);
     border-top: 1px solid var(--aqua);
     border-radius: 25px;
 }
+
+#projects img.streekavach {
+    margin: 2rem 0 4rem 0;
+    padding: 1rem;
+    height: inherit;
+}
+
+#projects div.streekavach {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin: 2rem 0 4rem 0;
+    padding: 1rem;
+    border-left: 1px solid var(--aqua);
+    border-top: 1px solid var(--aqua);
+    border-radius: 25px;
+    width: 30vw;
+    justify-self: end;
+}
+
 
 
 /* footer section */
